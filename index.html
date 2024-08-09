@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies</title>
+
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="currency" title="Изменить валюту" id="change-currency">$</div>
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img alt="Logo" src="images/logo.png">
+                </div>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a data-link="products">Каталог</a>
+                        </li>
+                        <li class="menu-item">
+                            <a data-link="love">О нас</a>
+                        </li>
+                        <li class=menu-item>
+                            <a data-link="order">Оформлення замовлення</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="main-content">
+            <div class="container">
+                <img alt="Line" class="line-1" src="images/line1.png">
+                <div class="main-info">
+                    <h1 class="main-title">Магія смаку в кожній крихті</h1>
+                    <p class="main-text">Наші рецепти вдихають життя у вишуканість інгредієнтів: ароматне натуральне
+                        масло, свіжі вершки, чистий мед та добірне
+                        борошно. Ми ретельно відбираємо кожен компонент преміального печива, прагнучи подарувати вам
+                        справжню кулінарну
+                        насолоду.</p>
+                    <div class="main-action">
+                        <button class="button" id="main-action-button">Замовити</button>
+                    </div>
+                </div>
+                <img alt="Cookie" class="main-image" src="images/cookie.png">
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="container">
+                <img alt="Line" class="line-2" src="images/line2.png">
+                <div class="common-title">Виберіть печиво</div>
+                <div class="products-items">
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/1.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Найкращі друзі</div>
+                            <div class="products-item-text">
+                                Печиво, з якого все почалося! Наше фірмове печиво з шоколадною крихтою і волоськими
+                                горіхами хрумке зовні з досить
+                                товстою і липкою серединкою.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="20">20 $</div>
+                                    <div class="products-item-weight">2 шт./ 200 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/2.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Шоколадний француз</div>
+                            <div class="products-item-text">
+                                Це печиво, виготовлене з темного французького какао та напівсолодкої шоколадної стружки,
+                                напевно задовольнить навіть
+                                найзатятішого любителя шоколаду.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="24">24 $</div>
+                                    <div class="products-item-weight">2 шт./ 200 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/3.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Вівсянка з родзинками, Сер!</div>
+                            <div class="products-item-text">
+                                Це здобне маслянисте печиво вагою шість унцій кожне золотисто-коричневе зовні, вологе
+                                всередині і наповнене пухкими
+                                солодкими родзинками.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="18">18 $</div>
+                                    <div class="products-item-weight">2 шт./ 200 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/4.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Шоколадна насолода</div>
+                            <div class="products-item-text">
+                                Ідеально хрумке зовні і досить густе і липке в центрі, це печиво наповнене напівсолодкою
+                                і темною шоколадною стружкою,
+                                що надає багату глибину смаку.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="24">24 $</div>
+                                    <div class="products-item-weight">2 шт./ 200 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/5.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Арахісовий рай</div>
+                            <div class="products-item-text">
+                                Солодке, пікантне та ідеально збалансоване печиво задовольняє потяг любителів арахісової
+                                олії та шоколаду.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="20">20 $</div>
+                                    <div class="products-item-weight">2 шт./ 200 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/6.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Шоколадний горіховий делікатес</div>
+                            <div class="products-item-text">
+                                Наша фірмова рецептура печива з шоколадними крихтами та волоськими горіхами гарантує
+                                незабутній смаковий досвід. Кожне
+                                печиво хрумтить зовні, але розкриває всередині ніжну серцевину.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="18">18 $</div>
+                                    <div class="products-item-weight">2 шт./ 200 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/7.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Асорті фірмового печива</div>
+                            <div class="products-item-text">
+                                Навіщо вибирати один, коли можна отримати їх усі? Наш класичний асортимент печива
+                                включає по одному з чотирьох
+                                оригінальних смаків печива..
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="36">36 $</div>
+                                    <div class="products-item-weight">4 шт./ 400 гр..</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/8.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Лимонне печиво</div>
+                            <div class="products-item-text">
+                                Це печиво, виготовлене з темного французького какао та напівсолодкої шоколадної стружки,
+                                напевно задовольнить навіть
+                                найзатятішого любителя шоколаду.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="33">33 $</div>
+                                    <div class="products-item-weight">4 шт./ 400 гр..</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/9.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Любителі шоколаду</div>
+                            <div class="products-item-text">
+                                Вам не потрібно вибирати фаворитів. Ми зробили цей набір для всіх людей, які дійсно
+                                люблять шоколад.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="38">38 $</div>
+                                    <div class="products-item-weight">4 шт./ 400 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/10.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Карамель та кокос</div>
+                            <div class="products-item-text">
+                                Побалуйте себе кокосовим, маслянистим, карамельним печивом, яке має небачений раніше
+                                смак і текстуру. Насолода цілий
+                                рік.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="33">33 $</div>
+                                    <div class="products-item-weight">4 шт./ 400 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/11.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Веганське з шоколадною крихтою</div>
+                            <div class="products-item-text">
+                                Наше веганське безглютенове печиво містить шматочки хрустких волоських горіхів та
+                                напівсолодку веганську шоколадну
+                                стружку.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="39">39 $</div>
+                                    <div class="products-item-weight">4 шт./ 400 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-image">
+                            <img alt="Product" src="images/12.png">
+                        </div>
+                        <div class="products-item-details">
+                            <div class="products-item-title">Крем-брюле горіхове печиво</div>
+                            <div class="products-item-text">
+                                Використовуючи унікальну суміш інгредієнтів, ми створили печиво зі шматочками крем-брюле
+                                та мигдальними горіхами, яке
+                                обіцяє неповторні гастрономічні відчуття. Кожен шматочок має хрустку скоринку і тане в
+                                роті.
+                            </div>
+                            <div class="products-item-extra">
+                                <div class="products-item-info">
+                                    <div class="products-item-price" data-base-price="35">35 $</div>
+                                    <div class="products-item-weight">4 шт./ 400 гр.</div>
+                                </div>
+                                <button class="button violet-button">Замовити</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="love" id="love">
+            <div class="container">
+                <div class="common-title">Пекарня з коханням</div>
+                <div class="love-items">
+                    <div class="love-item love-item-white">
+                        <div class="love-item-title">Приготовлено із турботою, щоб радувати вас щодня</div>
+                        <div class="love-item-text">
+                            Ми з гордістю представляємо наше печиво, яке ми випікаємо вручну щодня з 1995 року,
+                            використовуючи лише найкращі
+                            інгредієнти. Пориньте у світ вишуканих ласощів, приготованих із застосуванням передових
+                            технологій, і насолоджуйтеся їх
+                            неповторним смаком.
+                        </div>
+                    </div>
+                    <div class="love-item love-item-image">
+                        <img alt="Cookies image" src="images/love.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order" id="order">
+            <img alt="Line" class="line-3" src="images/line3.png">
+            <div class="container">
+                <div class="common-title">Замовте печиво</div>
+                <img alt="breadcrumbs" class="order-bg-image" src="images/breadcrumbs.png">
+                <div class="order-block">
+                    <div class="order-form">
+                        <div class="order-form-text">Відкрийте для себе чари смаку з нашим преміальним печивом! Замовте
+                            прямо зараз і пориньте у світ солодких насолод.
+                        </div>
+                        <div class="order-form-inputs">
+                            <label>
+                                <input placeholder="Выберіть печиво" type="text" id="product" />
+                            </label>
+                            <label>
+                                <input placeholder="Ваше им'я" type="text" id="name" />
+                            </label>
+                            <label>
+                                <input placeholder="Ваш телефон" type="text" id="phone" />
+                            </label>
+                            <button class="button violet-button" id="order-action">Оформити замовлення</button>
+                        </div>
+                    </div>
+                    <div class="order-block-image">
+                        <img alt="Cookies" class="order-image" src="images/order.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="log">
+                <img alt="Logo" src="images/logo.png">
+            </div>
+            <div class="rights">"Всі права захищені"</div>
+        </footer>
+
+    </main>
+
+    <script src="scripts/script.js"></script>
+
+
+</body>
+
+</html>
